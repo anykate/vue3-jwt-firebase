@@ -1,0 +1,28 @@
+{
+	"name": "vue3-jwt-firebase",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint . --fix",
+		"prettier": "npx prettier . --write",
+		"format": "npm run lint && npm run prettier"
+	},
+	"dependencies": {
+		"vue": "^3.5.13"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.2.1",
+		"@vue/eslint-config-prettier": "^10.1.0",
+		"eslint": "^9.16.0",
+		"eslint-plugin-vue": "^9.32.0",
+		"globals": "^15.13.0",
+		"prettier": "^3.4.2",
+		"vite": "^6.0.3",
+		"vite-plugin-eslint": "^1.8.1",
+		"vite-plugin-vue-devtools": "^7.6.8"
+	}
+}
