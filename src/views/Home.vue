@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<div>Hello World</div>
+	<main>Hello, Vue3!</main>
 </template>
 
 <style scoped></style>
